@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
-<title>无标题文档</title>
+<title>吉客优鲜</title>
 	<link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/total.css">
     <script src="js/move1.js"></script>
@@ -108,13 +108,15 @@
                     
                     <div class="produce"><h2>产品展示</h2></div>
                     <div class=" cl conduct w" id="scroll">
-                        <ul class="cl row">
+                        <ul class="cl">
                             <li class=""><a href="#"><img src="images/sucai3.png"></a></li>
                             <li class=""><a href="#"><img src="images/sucai2.png"></a></li>
                             <li class=""><a href="#"><img src="images/sucai4.png"></a></li>
                             <li class="five"><a href="#"><img src="images/sucai5.png"></a></li>
                             <li class=""><a href="#"><img src="images/sucai3.png"></a></li>
                         	<li class=""><a href="#"><img src="images/sucai2.png"></a></li>
+                        	<li class=""><a href="#"><img src="images/sucai4.png"></a></li>
+                            <li class="five"><a href="#"><img src="images/sucai5.png"></a></li>
                         </ul>
                     </div>
                     
@@ -192,17 +194,17 @@
 	    var ul = scroll.children[0];
 	    var num = 0; //控制左侧值  left
 	    var timer = null;  // 定时器
-	    timer = setInterval(autoPlay,10);
+	    timer = setInterval(autoPlay,20);
 	    function autoPlay() {
 	        num--;
-	        num<=-500 ? num = 0 : num;
+	        num<=-1000 ? num = 0 : num;
 	        ul.style.left = num + "px";
 	    }
 	    scroll.onmouseover = function() {  // 鼠标经过大盒子  停止定时器
 	        clearInterval(timer);
 	    }
 	    scroll.onmouseout = function() {
-	        timer = setInterval(autoPlay,10);  // 开启定时器
+	        timer = setInterval(autoPlay,20);  // 开启定时器
 	    };
 
 			 
