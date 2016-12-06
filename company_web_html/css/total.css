@@ -1,0 +1,114 @@
+@charset "utf-8";
+/* CSS Document */
+/*header*/
+.header{margin-top:30px;;height:107px;;width:100%;}
+.w{width:1000px;margin:0 auto;}
+.header .right{padding-top:20px;}
+
+.header .left{margin-right:180px;}
+.header .left img{width:212px;}
+.header .right ul li{float:left;width:92px;margin-right:12px;}
+.header .right h4{font-family:"黑体";font-size:18px;font-weight:bold;text-align:center;color:#6f7668;}
+.header .right h5{text-align:center;font-size:14px;font-weight:bold;color:#6f7668;}
+.header .right ul .six{margin-right:0;}
+.header .right ul .special{margin-right:0;}
+.header .right ul li h4:hover{color:#75a342;}
+.header .right ul li h5:hover{color:#75a342;}
+/*banner*/
+*{ margin:0; padding:0; list-style:none;}
+.banner{position:relative;margin:0 auto;width:100%;}
+#box{ width:1920px; height:525px; position:relative;left:50%;margin-left:-960px; margin-top:30px; min-width:1000px;overflow:hidden;}
+#box ul{ position:absolute;  width:7680px;overflow:hidden;}
+
+ #box ul li{  height:525px; float:left;width:1920px}
+  #box ul li img{width:1920px;}
+ #box ol{width:400px; position:absolute; bottom:10px; right:16px;}
+ #box ol li{ width:80px; height:10px; background:aquamarine; float:left; margin:5px;}
+ #box ol li span{ display:block; width:0px; height:10px; background:plum;}
+ /*content*/
+.content{height:270px;margin-bottom:50px;position:relative;margin-top:50px;min-width:1000px;}
+.content p{text-align:center;font-family:"微软雅黑";font-size:18px;padding-top:44px;}
+.content .fresh h2{font-family:"微软雅黑";font-size:40px;text-align:center;color:#FFF;line-height:64px;width:442px;}
+.content .fresh{background:url(../images/biaoti.png) no-repeat;width:442px;height:64px;margin:0 auto;margin-top:40px;}
+.content .pic img{position:fixed;right:0;top:50%;}
+/*main*/
+.main .main-box{height:447px;background:#f8f7f7;margin-top:70px;padding-top:30px;margin:0 auto;width:100%;min-width:1000px;}
+.main .induce{width:233px;height:60px;background:url(../images/biaoti_01.png) no-repeat;margin:0 auto;padding-bottom:40px;}
+.main .induce h2{font-family:"微软雅黑";font-size:30px;text-align:center;color:#FFF;padding-top:5px;height:60px;}
+.main-box .box .conduct .one{width:400px;height:259px;margin-right:70px;margin-top:15px;}
+.main-box .box .conduct .one img{padding-top:15px;}
+.main-box .box .conduct .relative{width:414px;height:302px;display:inline-block;}
+.main-box .box .conduct .two {background:url(../images/about-us_01.png) no-repeat;width:381px;height:260px;line-height:36px;color:#5b5b5b;font-family:"微软雅黑";font-size:16px;display:inline-block;background-size: 100% 100%;text-indent:2em;padding:40px 15px 0;}
+.main-box .box .conduct .two p{display:inline-block;padding:40px 0;}
+/*showing*/
+.showing{margin-top:40px;}
+.show-box{height:415px;background:url(../images/line(1).png) repeat-x;margin-top:38px;margin:0;padding:0;width:100%;}
+.show-box .produce{background:url(../images/biaoti-2_01.png) no-repeat;width:204px;height:66px;margin:0 auto;margin-bottom:37px;}
+.show-box .produce h2{color:#FFF;font-family:"微软雅黑";font-size:30px;font-weight:bold;text-align:center;line-height:66px;}
+
+.show-box .conduct{ 
+            height: 200px;
+            margin: 0 auto;
+           
+            position: relative;
+            overflow: hidden;
+}
+.show-box .conduct ul {
+            width:200%;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+
+.show-box ul li{float:left;}
+.show-box ul li img{width:250px;height:200px;margin:0;}
+/*downlod*/
+.download{width:100%;background:#f8f7f7;height:445px;padding-top: 10px;min-width: 1000px;}
+.download .induce{width:235px;height:52px;background:url(../images/biaoti-3_01.png) no-repeat;margin:0 auto;margin-bottom:30px;margin-top:20px;}
+.download .induce h2{font-family:"";font-size:30px;text-align:center;color:#FFF;line-height:60px;height:60px;}
+.wrapp {
+    width: 1000px;
+    margin: 0 auto;
+    /*background-color: pink;*/
+}
+.download-text,.download-img,.download-erweima{
+    display: inline-block;
+    /*margin-left: 60px;*/
+}
+.download-img img,.download-erweima img {
+    vertical-align: middle;
+}
+.dad{width:414px;height:302px;display:inline-block;}
+.download-text {
+    padding:40px 15px 0;
+	background:url(../images/our-app_01.png) no-repeat center center;
+    width: 381px;
+    line-height: 36px;
+    height: 260px;
+    text-indent:2em;
+    
+    color:#5b5b5b;
+    font-size:16px;
+    background-size:100% 100%;
+	font-family:"微软雅黑";
+    
+}
+.download-img {
+    margin-left: 65px;
+}
+.download-img .first{padding-bottom:28px;}
+.download-erweima {
+    margin-left: 40px;
+}
+.download-erweima img {
+    margin-top: -70px;
+}
+/*footer*/
+.footer{width:100%;min-width:1000px;height:177px;}
+.footer .footer-box{background:#322f2f;height:177px;margin:0 auto;}
+
+.footer .footer-box .one{margin-right:275px;}
+.footer .footer-box .one{width:360px;height:120px;padding-top:21px;display:inline-block;}
+.footer .footer-box .two{width:307px;height:120px;padding-top:21px;display:inline-block;}
+.footer .footer-box .one p{font-size:14px;line-height:44px;color:#FFF;}
+.footer .footer-box .two p{font-size:14px;line-height:25px;color:#FFF;}
